@@ -1,0 +1,12 @@
+<div class="flip-clock-element">
+  <div class="flip-element">
+    <div class="palette">
+      <b class="palette-top text-center" >{{currentValue}}</b>
+      <b class="palette-bottom text-center" [attr.data]="lastValue"></b>
+      <b class="palette-back text-center" [attr.data]="lastValue">
+        <b class="palette-bottom text-center" [attr.data]="currentValue">
+        </b>
+      </b>
+    </div>
+  </div>
+</div>
